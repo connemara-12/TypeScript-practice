@@ -1,9 +1,8 @@
-import type { NextPage } from 'next'
+import type { NextPage } from "next";
+import { TwitterCard } from "components/TwitterCard";
 
 const Home: NextPage = () => {
-  return (
-    <div>test</div>
-  );
-}
+  return <TwitterCard />;
+};
 
-export default Home
+export default Home;
